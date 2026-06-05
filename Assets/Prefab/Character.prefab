@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6254497975311524913}
+  - component: {fileID: 7352719346048612154}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -34,6 +35,58 @@ Transform:
   - {fileID: 7474525960373545192}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7352719346048612154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394652719686249834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7953d473bdf2d8940ac76f264e1b6aa9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::CarryOnE
+  cam: {fileID: 0}
+  holdPoint: {fileID: 0}
+  useHoldPointPosition: 0
+  interactKey: 101
+  throwKey: 323
+  maxPickupDistance: 3
+  maxCarryMass: 40
+  interactMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  requirePickupableMarker: 0
+  keepDistance: 2.6
+  minCarryDistance: 0.9
+  maxCarryDistance: 4
+  distanceScrollSpeed: 0.7
+  followStrength: 18
+  velocityDamping: 7
+  maxFollowSpeed: 14
+  sphereCastRadius: 0.3
+  wallPadding: 0.08
+  dropIfTooFar: 5
+  blockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  rotateWithCamera: 1
+  lockRotationToCamera: 1
+  rotationStrength: 22
+  rotationDamping: 8
+  maxAngularSpeed: 35
+  rotateKey: 114
+  rotateSensitivity: 7
+  tiltWithMouse: 1
+  mouseTiltSensitivity: 2.5
+  maxMouseTiltAngle: 18
+  mouseTiltReturnSpeed: 8
+  throwForce: 8
+  ignorePlayerCollision: 1
+  showPrompt: 1
+  drawDebug: 0
+  angularDamp: 8
 --- !u!1001 &1974150375437915142
 PrefabInstance:
   m_ObjectHideFlags: 0
